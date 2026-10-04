@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Nakul Somani — Plastic & Hair Transplant Surgeon | Jaipur</title>
+<meta name="description" content="Dr. Nakul Somani is a board-certified Plastic & Hair Transplant Surgeon in Jaipur. Book a consultation on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#FAF7F1; --ink:#1C2B2A; --teal:#0E3B39; --teal-deep:#0A2C2B;
+  --gold:#C6A15B; --gold-soft:#EAD9B8; --muted:#5C6E6D; --card:#FFFFFF;
+  --radius:20px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:600;line-height:1.15;letter-spacing:-.01em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(250,247,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid rgba(14,59,57,.08)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;max-width:1120px;margin:0 auto}
+.brand{font-family:'Fraunces',serif;font-weight:600;font-size:1.15rem;color:var(--teal)}
+.brand small{display:block;font-family:'Inter';font-weight:500;font-size:.68rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.nav-links{display:flex;gap:26px;align-items:center}
+.nav-links a{color:var(--ink);text-decoration:none;font-size:.9rem;font-weight:500}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--teal);color:#fff;padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.92rem;transition:.25s;border:none;cursor:pointer}
+.btn:hover{background:var(--teal-deep);transform:translateY(-1px)}
+.btn.gold{background:var(--gold);color:#1C2B2A}
+.btn.gold:hover{background:#b38f4c}
+/* hero */
+.hero{padding:70px 0 60px;position:relative;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid rgba(14,59,57,.12);padding:7px 16px;border-radius:999px;font-size:.78rem;font-weight:600;color:var(--teal);letter-spacing:.04em}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:#2E9E5B;animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.4}}
+.hero h1{font-size:clamp(2.4rem,5vw,3.9rem);margin:22px 0 18px;color:var(--teal)}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero p.lead{font-size:1.08rem;color:var(--muted);max-width:480px}
+.hero-cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.trust{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap}
+.trust div b{display:block;font-family:'Fraunces',serif;font-size:1.6rem;color:var(--teal)}
+.trust div span{font-size:.82rem;color:var(--muted)}
+.hero-card{background:var(--teal);border-radius:28px;padding:44px 36px;color:#fff;position:relative;overflow:hidden}
+.hero-card::before{content:"";position:absolute;top:-60px;right:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle,rgba(198,161,91,.35),transparent 70%)}
+.hero-card h3{font-size:1.5rem;margin-bottom:6px}
+.hero-card p{color:rgba(255,255,255,.75);font-size:.92rem;margin-bottom:22px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:.78rem;font-weight:600;margin-bottom:6px;color:var(--gold-soft);letter-spacing:.03em}
+.field input,.field select{width:100%;padding:13px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;font-size:.95rem;font-family:inherit}
+.field input::placeholder{color:rgba(255,255,255,.45)}
+.field select option{color:#1C2B2A}
+/* sections */
+section{padding:70px 0}
+.sec-head{text-align:center;max-width:620px;margin:0 auto 44px}
+.sec-head .kicker{font-size:.75rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.sec-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem);color:var(--teal);margin:12px 0 14px}
+.sec-head p{color:var(--muted)}
+/* services */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:var(--card);border-radius:var(--radius);padding:32px 28px;border:1px solid rgba(14,59,57,.07);transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(14,59,57,.1)}
+.card .icon{width:52px;height:52px;border-radius:16px;background:linear-gradient(135deg,var(--teal),var(--teal-deep));display:grid;place-items:center;font-size:1.5rem;margin-bottom:18px}
+.card h3{font-size:1.25rem;color:var(--teal);margin-bottom:8px}
+.card p{font-size:.9rem;color:var(--muted)}
+.card ul{list-style:none;margin-top:14px}
+.card li{font-size:.86rem;color:var(--muted);padding:5px 0 5px 22px;position:relative}
+.card li::before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
+/* about */
+.about{background:#fff;border-top:1px solid rgba(14,59,57,.07);border-bottom:1px solid rgba(14,59,57,.07)}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:center}
+.about-badge{background:linear-gradient(135deg,var(--teal),var(--teal-deep));color:#fff;border-radius:28px;padding:50px 40px;text-align:center}
+.about-badge .big{font-family:'Fraunces',serif;font-size:3.2rem;color:var(--gold)}
+.about-badge p{color:rgba(255,255,255,.75);font-size:.92rem;margin-top:8px}
+.about-text h2{font-size:clamp(1.9rem,3.4vw,2.6rem);color:var(--teal);margin-bottom:16px}
+.about-text p{color:var(--muted);margin-bottom:14px}
+.checks{margin-top:20px;display:grid;gap:10px}
+.checks div{display:flex;gap:12px;align-items:flex-start;font-size:.94rem}
+.checks .tick{flex-shrink:0;width:26px;height:26px;border-radius:50%;background:rgba(198,161,91,.18);color:var(--gold);display:grid;place-items:center;font-weight:700;font-size:.85rem}
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{text-align:center;padding:10px}
+.step .num{width:56px;height:56px;border-radius:50%;background:#fff;border:2px solid var(--gold-soft);display:grid;place-items:center;margin:0 auto 14px;font-family:'Fraunces',serif;font-size:1.3rem;color:var(--gold);font-weight:600}
+.step h4{color:var(--teal);font-size:1rem;margin-bottom:6px}
+.step p{font-size:.85rem;color:var(--muted)}
+/* faq */
+.faq{max-width:760px;margin:0 auto}
+.faq details{background:#fff;border:1px solid rgba(14,59,57,.09);border-radius:14px;margin-bottom:12px;overflow:hidden}
+.faq summary{padding:18px 22px;cursor:pointer;font-weight:600;color:var(--teal);list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.4rem;color:var(--gold)}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 22px 20px;color:var(--muted);font-size:.92rem}
+/* contact */
+.contact{background:linear-gradient(135deg,var(--teal),var(--teal-deep));border-radius:32px;padding:60px 40px;text-align:center;color:#fff;margin:0 20px}
+.contact h2{font-size:clamp(1.9rem,3.6vw,2.8rem);margin-bottom:12px}
+.contact h2 em{font-style:italic;color:var(--gold)}
+.contact p{color:rgba(255,255,255,.75);max-width:520px;margin:0 auto 28px}
+.contact .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.wa{background:#25D366;color:#062d1a}
+.wa:hover{background:#1fb857}
+.ghost{background:transparent;border:1.5px solid rgba(255,255,255,.35);color:#fff}
+.ghost:hover{border-color:#fff}
+/* footer */
+footer{padding:36px 0;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--teal);text-decoration:none;font-weight:600}
+/* floating wa */
+.wa-float{position:fixed;bottom:22px;right:22px;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(37,211,102,.45);z-index:60;transition:.25s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+@media(max-width:860px){
+  .hero-grid,.about-grid{grid-template-columns:1fr}
+  .grid3{grid-template-columns:1fr}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .nav-links a:not(.btn){display:none}
+  section{padding:50px 0}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <div class="brand">Dr. Nakul Somani<small>Plastic Surgeon · Jaipur</small></div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="https://wa.me/918290000117?text=Hi%20Doctor%2C%20I%27d%20like%20to%20book%20a%20consultation.">Book Consultation</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow"><span class="dot"></span> Board-Certified Plastic Surgeon · Jaipur</span>
+      <h1>Look like <em>yourself</em>,<br>only more confident.</h1>
+      <p class="lead">Dr. Nakul Somani specialises in hair transplant and aesthetic plastic surgery — natural results, honest advice, and care that continues after your procedure.</p>
+      <div class="hero-cta">
+        <a class="btn gold" href="https://wa.me/918290000117?text=Hi%20Doctor%2C%20I%27d%20like%20to%20book%20a%20consultation.">💬 WhatsApp Consultation</a>
+        <a class="btn" style="background:transparent;color:var(--teal);border:1.5px solid var(--teal)" href="#services">View Services</a>
+      </div>
+      <div class="trust">
+        <div><b>159K+</b><span>Instagram community</span></div>
+        <div><b>600+</b><span>Educational posts</span></div>
+        <div><b>Board</b><span>Certified surgeon</span></div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Book your consultation</h3>
+      <p>Fill this in — we'll continue on WhatsApp.</p>
+      <form onsubmit="bookWA(event)">
+        <div class="field"><label>Your name</label><input id="f-name" placeholder="Full name" required></div>
+        <div class="field"><label>Concern</label>
+          <select id="f-service">
+            <option>Hair Transplant</option>
+            <option>Rhinoplasty (Nose)</option>
+            <option>Liposuction / Body Contouring</option>
+            <option>Gynecomastia</option>
+            <option>Scar / Revision Surgery</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field"><label>City</label><input id="f-city" placeholder="e.g. Jaipur"></div>
+        <button class="btn gold" style="width:100%;justify-content:center" type="submit">Continue on WhatsApp →</button>
+      </form>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Services</div>
+      <h2>Procedures, done right.</h2>
+      <p>Every treatment starts with an honest consultation — if a procedure isn't right for you, you'll be told so.</p>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <div class="icon">💇</div>
+        <h3>Hair Transplant</h3>
+        <p>Permanent, natural-looking hair restoration using modern techniques.</p>
+        <ul><li>FUE hair transplant</li><li>Beard & moustache transplant</li><li>Post-procedure care plan</li></ul>
+      </div>
+      <div class="card">
+        <div class="icon">👃</div>
+        <h3>Rhinoplasty</h3>
+        <p>Nose reshaping balanced with your facial features — never overdone.</p>
+        <ul><li>Cosmetic rhinoplasty</li><li>Functional correction</li><li>3D outcome discussion</li></ul>
+      </div>
+      <div class="card">
+        <div class="icon">✨</div>
+        <h3>Body Contouring</h3>
+        <p>Sculpting procedures tailored to your body goals and safety.</p>
+        <ul><li>Liposuction</li><li>Gynecomastia surgery</li><li>Tummy tuck assessment</li></ul>
+      </div>
+      <div class="card">
+        <div class="icon">🧴</div>
+        <h3>Skin & Scar Treatments</h3>
+        <p>Medical-grade treatments for scars, marks and skin concerns.</p>
+        <ul><li>Scar revision surgery</li><li>Acne scar treatment</li><li>Mole / lesion removal</li></ul>
+      </div>
+      <div class="card">
+        <div class="icon">💉</div>
+        <h3>Non-Surgical Aesthetics</h3>
+        <p>Subtle enhancements with minimal downtime.</p>
+        <ul><li>Consultation-led planning</li><li>Natural-looking results</li><li>Follow-up included</li></ul>
+      </div>
+      <div class="card">
+        <div class="icon">🩺</div>
+        <h3>Reconstructive Surgery</h3>
+        <p>Restoring form and function after injury or previous surgery.</p>
+        <ul><li>Post-trauma reconstruction</li><li>Revision procedures</li><li>Detailed evaluation first</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div class="about-badge">
+      <div class="big">159K+</div>
+      <p>followers learn about plastic surgery<br>from Dr. Somani on Instagram</p>
+      <a href="https://www.instagram.com/plasticsurgeon.drnakul" target="_blank" rel="noopener" class="btn gold" style="margin-top:22px">Follow on Instagram</a>
+    </div>
+    <div class="about-text">
+      <div class="kicker" style="font-size:.75rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">About</div>
+      <h2>A surgeon who educates first.</h2>
+      <p>Dr. Nakul Somani is a board-certified Plastic & Hair Transplant Surgeon based in Jaipur, India. Through 600+ educational posts, he has built one of India's most trusted plastic-surgery communities on Instagram — explaining procedures honestly, without hype.</p>
+      <p>His philosophy is simple: the right procedure for the right patient, natural results, and complete transparency about risks, recovery and cost.</p>
+      <div class="checks">
+        <div><span class="tick">✓</span><span><b>Board-certified</b> Plastic & Hair Transplant Surgeon</span></div>
+        <div><span class="tick">✓</span><span>Honest consultations — no unnecessary procedures</span></div>
+        <div><span class="tick">✓</span><span>Direct WhatsApp access for consultation booking</span></div>
+        <div><span class="tick">✓</span><span>Patients from across India</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">How it works</div>
+      <h2>From first message to final result.</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h4>WhatsApp us</h4><p>Send your concern and photos for initial review.</p></div>
+      <div class="step"><div class="num">2</div><h4>Consultation</h4><p>Honest evaluation — in clinic or video call.</p></div>
+      <div class="step"><div class="num">3</div><h4>Procedure</h4><p>Planned carefully, performed with precision.</p></div>
+      <div class="step"><div class="num">4</div><h4>Aftercare</h4><p>Follow-ups until you're fully recovered.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:20px">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">FAQ</div>
+      <h2>Common questions.</h2>
+    </div>
+    <div class="faq">
+      <details><summary>How do I book a consultation?</summary><div class="ans">Tap any WhatsApp button on this page — you'll be connected directly. Share your concern and photos for an initial review, then a consultation is scheduled.</div></details>
+      <details><summary>Is hair transplant permanent?</summary><div class="ans">Yes — transplanted follicles are taken from DHT-resistant donor areas and typically grow for life. Proper aftercare matters, and Dr. Somani provides a complete post-procedure plan.</div></details>
+      <details><summary>I'm from outside Jaipur. Can I still consult?</summary><div class="ans">Absolutely. Video consultations are available for outstation patients, and in-person visits can be planned around your procedure date.</div></details>
+      <details><summary>How much does a procedure cost?</summary><div class="ans">Cost depends on your specific case and is discussed transparently during consultation. There are no hidden charges — you'll know the full plan before deciding.</div></details>
+      <details><summary>Will the results look natural?</summary><div class="ans">That's the core philosophy here — enhancements that suit your features, never overdone. During consultation you'll discuss realistic outcomes openly.</div></details>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="contact">
+    <h2>Ready when <em>you</em> are.</h2>
+    <p>One message is all it takes to start. Ask anything — honest answers, no pressure.</p>
+    <div class="row">
+      <a class="btn wa" href="https://wa.me/918290000117?text=Hi%20Doctor%2C%20I%27d%20like%20to%20book%20a%20consultation.">💬 WhatsApp: +91 82900 00117</a>
+      <a class="btn ghost" href="https://www.instagram.com/plasticsurgeon.drnakul" target="_blank" rel="noopener">📸 Instagram</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <p><b style="color:var(--teal)">Dr. Nakul Somani</b> · Plastic & Hair Transplant Surgeon · Jaipur, India</p>
+    <p style="margin-top:6px">Website concept — clinic address & timings to be confirmed. · <a href="https://www.instagram.com/plasticsurgeon.drnakul">Instagram</a></p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/918290000117?text=Hi%20Doctor%2C%20I%27d%20like%20to%20book%20a%20consultation." aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.8c1.8 1 3.9 1.6 6.1 1.6h.1c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.8C4.7 8.9 9.6 4.2 16 4.2S27.3 9 27.3 15.4 22.4 24.8 16 24.8zm6-8.1c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.3-.7.1-.3-.2-1.4-.5-2.6-1.6-.9-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.2-.6l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.6-.8-.6h-.6c-.2 0-.6.2-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.4c.2.2 2.2 3.4 5.4 4.8 1.9.8 2.7.9 3.6.8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+function bookWA(e){
+  e.preventDefault();
+  var n=document.getElementById('f-name').value.trim();
+  var s=document.getElementById('f-service').value;
+  var c=document.getElementById('f-city').value.trim();
+  var msg='Hi Doctor, I am '+n+' from '+(c||'my city')+'. I would like to consult about: '+s+'.';
+  window.open('https://wa.me/918290000117?text='+encodeURIComponent(msg),'_blank');
+}
+</script>
+</body>
+</html>
